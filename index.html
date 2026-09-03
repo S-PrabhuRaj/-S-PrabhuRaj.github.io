@@ -1,13 +1,180 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My First Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of S. Prabhu Raj - B.Com Computer Applications fresher.">
+  <title>S. Prabhu Raj | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <header class="navbar">
+    <a class="logo" href="#home">Prabhu Raj</a>
+    <button class="menu-btn" aria-label="Toggle navigation">☰</button>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Internship</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <h1>Hello World</h1>
-    <p>This is my first HTML page.</p>
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">B.Com (Computer Applications) • Fresher</p>
+        <h1>Hi, I'm <span>Prabhu Raj</span>.</h1>
+        <h2>Computer Applications Graduate</h2>
+        <p class="hero-text">
+          I’m an entry-level candidate with a foundation in computer applications,
+          web basics, SQL and office tools, with a strong willingness to learn and grow.
+        </p>
+        <div class="buttons">
+          <a class="btn primary" href="#contact">Contact Me</a>
+          <a class="btn secondary" href="#skills">View Skills</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="initials">PR</div>
+        <h3>S. Prabhu Raj</h3>
+        <p>Computer Applications</p>
+        <div class="quick-info">
+          <span>📍 Pollachi, Tamil Nadu</span>
+          <span>✉️ prabhurajan2005@gmail.com</span>
+          <span>📞 9487532405</span>
+        </div>
+      </div>
+    </section>
 
+    <section id="about" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">About Me</p>
+        <h2>Objective</h2>
+      </div>
+      <div class="about-grid">
+        <p>
+          B.Com (Computer Applications) fresher seeking an entry-level position
+          where I can apply my computer skills, basic accounting knowledge, and
+          willingness to learn while contributing to organizational growth.
+        </p>
+        <div class="highlight">
+          <strong>Career Focus</strong>
+          <span>Entry-level IT / Computer Applications roles</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section alt">
+      <div class="section-heading">
+        <p class="eyebrow">Academic Background</p>
+        <h2>Education</h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="year">2023–2026</div>
+          <div>
+            <h3>Sree Saraswathi Thyagaraja College</h3>
+            <p>Bachelor of Commerce (Computer Applications)</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="year">2022–2023</div>
+          <div>
+            <h3>Keshav Vidhya Mandir Matric Hr. Sec. School</h3>
+            <p>HSC (12th Standard) • 70.1%</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="year">2020–2021</div>
+          <div>
+            <h3>Keshav Vidhya Mandir Matric Hr. Sec. School</h3>
+            <p>SSLC (10th Standard) • Pass</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">What I Know</p>
+        <h2>Skills</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Technical Skills</h3>
+          <div class="chips">
+            <span>MS Word</span><span>MS Excel</span><span>HTML</span>
+            <span>CSS</span><span>JavaScript (Basic)</span><span>Basic SQL</span>
+            <span>Computer Operations</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Soft Skills</h3>
+          <div class="chips">
+            <span>Communication</span><span>Time Management</span>
+            <span>Team Work</span><span>Willingness to Learn</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section alt">
+      <div class="section-heading">
+        <p class="eyebrow">Practical Exposure</p>
+        <h2>Internship</h2>
+      </div>
+      <article class="experience-card">
+        <div class="experience-icon">✦</div>
+        <div>
+          <p class="date">09 May 2025 – 08 June 2025</p>
+          <h3>Internship / Industrial Training</h3>
+          <h4>Shri Pachaiamman Spinners, Pollachi (Coimbatore)</h4>
+          <p>
+            Completed internship training and gained practical exposure to a professional
+            workplace environment, teamwork and organizational processes.
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <section id="certifications" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Learning</p>
+        <h2>Certifications</h2>
+      </div>
+      <div class="cert-grid">
+        <div class="cert-card"><span>01</span><h3>HTML</h3><p>Online Course</p></div>
+        <div class="cert-card"><span>02</span><h3>MS Excel</h3><p>Online Course</p></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-heading">
+        <p class="eyebrow">Let's Connect</p>
+        <h2>Contact</h2>
+      </div>
+      <div class="contact-grid">
+        <div>
+          <h3>Open to opportunities</h3>
+          <p>
+            I’m interested in entry-level opportunities where I can use my computer
+            application skills and continue building my technical knowledge.
+          </p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:prabhurajan2005@gmail.com">✉️ prabhurajan2005@gmail.com</a>
+          <a href="tel:+919487532405">📞 +91 94875 32405</a>
+          <span>📍 Pollachi, Tamil Nadu – 642001</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 S. Prabhu Raj • Built with HTML & CSS</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
